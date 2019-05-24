@@ -27,6 +27,7 @@ Aggregator POM for all New Media Works open-source projects.
 * [GitHub](https://github.com/newmediaworks/nmw-oss)
 
 ## Sub-Projects
+* [NMW Email Taglib](https://github.com/newmediaworks/nmw-email-taglib)
 * [NMW OSS Parent](https://github.com/newmediaworks/nmw-oss-parent)
 
 ## Contact Us
