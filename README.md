@@ -26,6 +26,9 @@ Aggregator POM for all New Media Works open-source projects.
 * [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.newmediaworks%22%20AND%20a:%22nmw-oss%22)
 * [GitHub](https://github.com/newmediaworks/nmw-oss)
 
+## Sub-Projects
+* [NMW OSS Parent](https://github.com/newmediaworks/nmw-oss-parent)
+
 ## Contact Us
 For questions or support, please [contact us](https://www.newmediaworks.com/html/contact.html):
 
