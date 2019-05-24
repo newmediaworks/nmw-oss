@@ -1,0 +1,3 @@
+[submodule "parent"]
+	path = parent
+	url = git@github.com:newmediaworks/nmw-oss-parent.git
