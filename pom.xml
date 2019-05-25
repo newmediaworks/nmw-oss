@@ -46,7 +46,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 	</scm>
 
 	<modules>
-		<!-- TODO: <module>book</module> -->
+		<module>book</module>
 		<module>email-taglib</module>
 		<module>email-taglib/book</module>
 		<module>parent</module>
