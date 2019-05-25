@@ -36,7 +36,6 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.newmediaworks</documented.groupId><documented.artifactId>nmw-oss</documented.artifactId>
 		<documented.name>NMW OSS</documented.name>
-		<documented.shortTitle>NMW OSS</documented.shortTitle>
 		<documented.url>https://oss.newmediaworks.com/</documented.url>
 		<documented.description>Aggregator POM for all New Media Works open-source projects.</documented.description>
 		<documented.inceptionYear>2019</documented.inceptionYear>
