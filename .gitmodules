@@ -7,3 +7,6 @@
 [submodule "website"]
 	path = website
 	url = git@newmediaworks.github.com:newmediaworks/nmw-oss-website.git
+[submodule "payment-taglib"]
+	path = payment-taglib
+	url = git@newmediaworks.github.com:newmediaworks/nmw-payment-taglib.git
