@@ -52,10 +52,12 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 
 	<modules>
 		<module>book</module>
-		<module>email-taglib</module>
-		<module>email-taglib/book</module>
 		<module>parent</module>
 		<module>parent/book</module>
+		<module>email-taglib</module>
+		<module>email-taglib/book</module>
+		<module>payment-taglib</module>
+		<module>payment-taglib/book</module>
 		<module>website</module>
 	</modules>
 </project>

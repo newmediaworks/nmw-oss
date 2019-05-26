@@ -33,11 +33,12 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2019-05-24T19:35:11-0500"
-		dateModified="2019-05-24T20:42:26-0500"
+		dateModified="2019-05-26T15:13:08-0500"
 	>
 		<core:child page="changelog.jspx" />
-		<core:child book="/email-taglib" page="/index.jspx" />
 		<core:child book="/parent" page="/index.jspx" />
+		<core:child book="/email-taglib" page="/index.jspx" />
+		<core:child book="/payment-taglib" page="/index.jspx" />
 		<ao:include
 			page="/ao-badges/badges.inc.jspx"
 			arg.projectStatus="${currentPage.property.projectStatus}"
@@ -59,8 +60,9 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		</section:section>
 		<section:section label="Sub-Projects">
 			<ul>
-				<li><core:link book="/email-taglib" page="/index.jspx" /></li>
 				<li><core:link book="/parent" page="/index.jspx" /></li>
+				<li><core:link book="/email-taglib" page="/index.jspx" /></li>
+				<li><core:link book="/payment-taglib" page="/index.jspx" /></li>
 			</ul>
 		</section:section>
 	</core:page>
