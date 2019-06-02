@@ -18,7 +18,7 @@
 	</a>
 </p>
 
-Aggregator POM for all New Media Works open-source projects.
+Aggregator POM for all New Media Works open-source software projects.
 
 ## Project Links
 * [Project Home](https://oss.newmediaworks.com/)
