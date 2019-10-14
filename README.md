@@ -28,6 +28,7 @@ Aggregator POM for all New Media Works open-source software projects.
 
 ## Sub-Projects
 * [NMW OSS Parent](https://github.com/newmediaworks/nmw-oss-parent)
+* [NMW Javadoc Resources](https://github.com/newmediaworks/nmw-javadoc-resources)
 * [NMW Email Taglib](https://github.com/newmediaworks/nmw-email-taglib)
 * [NMW Payment Taglib](https://github.com/newmediaworks/nmw-payment-taglib)
 

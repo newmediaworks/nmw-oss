@@ -33,10 +33,11 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2019-05-24T19:35:11-0500"
-		dateModified="2019-06-02T14:16:38-0500"
+		dateModified="2019-10-13T22:31:57-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<core:child book="/parent" page="/index.jspx" />
+		<core:child book="/javadoc-resources" page="/index.jspx" />
 		<core:child book="/email-taglib" page="/index.jspx" />
 		<core:child book="/payment-taglib" page="/index.jspx" />
 		<header>
@@ -63,6 +64,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		<section:section label="Sub-Projects">
 			<ul>
 				<li><core:link book="/parent" page="/index.jspx" /></li>
+				<li><core:link book="/javadoc-resources" page="/index.jspx" /></li>
 				<li><core:link book="/email-taglib" page="/index.jspx" /></li>
 				<li><core:link book="/payment-taglib" page="/index.jspx" /></li>
 			</ul>
