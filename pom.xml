@@ -44,9 +44,9 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 
 	<scm>
 		<!-- Can't inherit due to multi-module -->
-		<connection>scm:git:git://github.com/newmediaworks/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:newmediaworks/${project.artifactId}.git</developerConnection>
-		<url>https://github.com/newmediaworks/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/newmediaworks/nmw-oss.git</connection>
+		<developerConnection>scm:git:git@github.com:newmediaworks/nmw-oss.git</developerConnection>
+		<url>https://github.com/newmediaworks/nmw-oss</url>
 		<tag>HEAD</tag>
 	</scm>
 
