@@ -1,15 +1,20 @@
 [submodule "parent"]
 	path = parent
 	url = git@github.com:newmediaworks/nmw-oss-parent.git
+	branch = master
 [submodule "javadoc-resources"]
 	path = javadoc-resources
 	url = git@newmediaworks.github.com:newmediaworks/nmw-javadoc-resources.git
+	branch = master
 [submodule "email-taglib"]
 	path = email-taglib
 	url = git@newmediaworks.github.com:newmediaworks/nmw-email-taglib.git
+	branch = master
 [submodule "website"]
 	path = website
 	url = git@newmediaworks.github.com:newmediaworks/nmw-oss-website.git
+	branch = master
 [submodule "payment-taglib"]
 	path = payment-taglib
 	url = git@newmediaworks.github.com:newmediaworks/nmw-payment-taglib.git
+	branch = master
