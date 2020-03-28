@@ -50,6 +50,11 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/newmediaworks/nmw-oss/issues</url>
+	</issueManagement>
+
 	<modules>
 		<module>book</module>
 		<module>parent</module>
