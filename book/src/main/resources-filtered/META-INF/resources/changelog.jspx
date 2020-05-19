@@ -37,7 +37,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-05-24T19:34:42-0500"
-		dateModified="2020-05-19T01:30:38-05:00"
+		dateModified="2020-05-19T05:25:52-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.newmediaworks:nmw-oss:pom.version}" />
@@ -52,7 +52,11 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated version of <core:link book="/email-taglib" page="/index.jspx" />.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
