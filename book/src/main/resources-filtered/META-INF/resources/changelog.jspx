@@ -37,7 +37,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-05-24T19:34:42-0500"
-		dateModified="2020-05-19T05:25:52-05:00"
+		dateModified="2020-05-28T02:23:01-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.newmediaworks:nmw-oss:pom.version}" />
@@ -55,6 +55,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Updated version of <core:link book="/email-taglib" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/parent" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
