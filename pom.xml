@@ -62,6 +62,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		<module>javadoc-resources/book</module>
 		<module>email-taglib</module>
 		<module>email-taglib/book</module>
+		<module>email-taglib/devel</module>
 		<module>payment-taglib</module>
 		<module>payment-taglib/book</module>
 		<module>website</module>
