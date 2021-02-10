@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss - Aggregator POM for all New Media Works open-source software projects.
-Copyright (C) 2019, 2020  New Media Works
+Copyright (C) 2019, 2020, 2021  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -37,7 +37,7 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-05-24T19:34:42-0500"
-		dateModified="2020-12-05T05:01:07-06:00"
+		dateModified="2021-02-10T06:45:20-06:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -46,14 +46,23 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>Updated version of <core:link book="/email-taglib" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/parent" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/payment-taglib" page="/index.jspx" />.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.6.0"
+			datePublished="2021-02-10T06:45:20-06:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <core:link book="/email-taglib" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/parent" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/payment-taglib" page="/index.jspx" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
