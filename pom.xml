@@ -32,11 +32,6 @@ along with nmw-oss.  If not, see <http://www.gnu.org/licenses />.
 	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss</artifactId><version>1.8.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<properties>
-		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://oss.newmediaworks.com/">NMW OSS</a>]]></javadoc.breadcrumbs>
-		<shortTitle />
-	</properties>
-
 	<name>NMW OSS</name>
 	<url>https://oss.newmediaworks.com/</url>
 	<description>Aggregator POM for all New Media Works open-source software projects.</description>
