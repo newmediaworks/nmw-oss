@@ -8,6 +8,11 @@
 
 [![Build](https://github.com/newmediaworks/nmw-oss/workflows/Build/badge.svg?branch=master)](https://github.com/newmediaworks/nmw-oss/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.newmediaworks/nmw-oss/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.newmediaworks/nmw-oss)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.newmediaworks%3Anmw-oss)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.newmediaworks%3Anmw-oss&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.newmediaworks%3Anmw-oss&metric=Maintainability)
 
 Aggregator POM for all New Media Works open-source software projects.
 
