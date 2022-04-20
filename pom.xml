@@ -22,100 +22,100 @@ You should have received a copy of the GNU Lesser General Public License
 along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><version>1.15.0-SNAPSHOT</version>
-		<relativePath>parent/pom.xml</relativePath>
-	</parent>
+  <parent>
+    <groupId>com.newmediaworks</groupId><artifactId>nmw-oss-parent</artifactId><version>1.15.0-SNAPSHOT</version>
+    <relativePath>parent/pom.xml</relativePath>
+  </parent>
 
-	<groupId>com.newmediaworks</groupId><artifactId>nmw-oss</artifactId><version>1.9.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+  <groupId>com.newmediaworks</groupId><artifactId>nmw-oss</artifactId><version>1.9.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-	<properties>
-		<!-- SonarQube -->
-		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-		<sonar.organization>newmediaworks</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	</properties>
+  <properties>
+    <!-- SonarQube -->
+    <sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
+    <sonar.organization>newmediaworks</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
 
-	<name>NMW OSS</name>
-	<url>https://oss.newmediaworks.com/</url>
-	<description>Aggregator POM for all New Media Works open-source software projects.</description>
-	<inceptionYear>2019</inceptionYear>
+  <name>NMW OSS</name>
+  <url>https://oss.newmediaworks.com/</url>
+  <description>Aggregator POM for all New Media Works open-source software projects.</description>
+  <inceptionYear>2019</inceptionYear>
 
-	<licenses>
-		<license>
-			<name>GNU General Lesser Public License (LGPL) version 3.0</name>
-			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
+  <licenses>
+    <license>
+      <name>GNU General Lesser Public License (LGPL) version 3.0</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
-	<organization>
-		<name>New Media Works</name>
-		<url>https://www.newmediaworks.com/</url>
-	</organization>
+  <organization>
+    <name>New Media Works</name>
+    <url>https://www.newmediaworks.com/</url>
+  </organization>
 
-	<developers>
-		<developer>
-			<name>AO Industries, Inc.</name>
-			<email>support@aoindustries.com</email>
-			<url>https://aoindustries.com/</url>
-			<organization>AO Industries, Inc.</organization>
-			<organizationUrl>https://aoindustries.com/</organizationUrl>
-		</developer>
-	</developers>
+  <developers>
+    <developer>
+      <name>AO Industries, Inc.</name>
+      <email>support@aoindustries.com</email>
+      <url>https://aoindustries.com/</url>
+      <organization>AO Industries, Inc.</organization>
+      <organizationUrl>https://aoindustries.com/</organizationUrl>
+    </developer>
+  </developers>
 
-	<scm>
-		<connection>scm:git:git://github.com/newmediaworks/nmw-oss.git</connection>
-		<developerConnection>scm:git:git@github.com:newmediaworks/nmw-oss.git</developerConnection>
-		<url>https://github.com/newmediaworks/nmw-oss</url>
-		<tag>HEAD</tag>
-	</scm>
+  <scm>
+    <connection>scm:git:git://github.com/newmediaworks/nmw-oss.git</connection>
+    <developerConnection>scm:git:git@github.com:newmediaworks/nmw-oss.git</developerConnection>
+    <url>https://github.com/newmediaworks/nmw-oss</url>
+    <tag>HEAD</tag>
+  </scm>
 
-	<issueManagement>
-		<system>GitHub Issues</system>
-		<url>https://github.com/newmediaworks/nmw-oss/issues</url>
-	</issueManagement>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/newmediaworks/nmw-oss/issues</url>
+  </issueManagement>
 
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>https://jenkins.aoindustries.com/job/nmw/job/oss/job/index/</url>
-	</ciManagement>
-	<!-- Only one allowed in POM:
-	<ciManagement>
-		<system>GitHub Actions</system>
-		<url>https://github.com/newmediaworks/nmw-oss/actions</url>
-	</ciManagement>
-	-->
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://jenkins.aoindustries.com/job/nmw/job/oss/job/index/</url>
+  </ciManagement>
+  <!-- Only one allowed in POM:
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/newmediaworks/nmw-oss/actions</url>
+  </ciManagement>
+  -->
 
-	<repositories>
-		<!-- Repository required here, too, so can find parent -->
-		<repository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<checksumPolicy>fail</checksumPolicy>
-			</snapshots>
-		</repository>
-	</repositories>
+  <repositories>
+    <!-- Repository required here, too, so can find parent -->
+    <repository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Sonatype Nexus Snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 
-	<modules>
-		<module>book</module>
-		<module>parent</module>
-		<module>parent/book</module>
-		<module>javadoc-resources</module>
-		<module>javadoc-resources/book</module>
-		<module>email-taglib</module>
-		<module>email-taglib/book</module>
-		<module>email-taglib/devel</module>
-		<module>payment-taglib</module>
-		<module>payment-taglib/book</module>
-		<module>website</module>
-	</modules>
+  <modules>
+    <module>book</module>
+    <module>parent</module>
+    <module>parent/book</module>
+    <module>javadoc-resources</module>
+    <module>javadoc-resources/book</module>
+    <module>email-taglib</module>
+    <module>email-taglib/book</module>
+    <module>email-taglib/devel</module>
+    <module>payment-taglib</module>
+    <module>payment-taglib/book</module>
+    <module>website</module>
+  </modules>
 </project>
