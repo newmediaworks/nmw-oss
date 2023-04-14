@@ -19,7 +19,7 @@ Aggregator POM for all New Media Works open-source software projects.
 ## Project Links
 * [Project Home](https://oss.newmediaworks.com/)
 * [Changelog](https://oss.newmediaworks.com/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.newmediaworks&q=a%3Anmw-oss)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss)
 * [GitHub](https://github.com/newmediaworks/nmw-oss)
 
 ## Sub-Projects
