@@ -32,6 +32,11 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.newmediaworks</groupId><artifactId>nmw-oss</artifactId><version>1.9.0-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <properties>
+    <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+  </properties>
+
   <name>NMW OSS</name>
   <url>https://oss.newmediaworks.com/</url>
   <description>Aggregator POM for all New Media Works open-source software projects.</description>
