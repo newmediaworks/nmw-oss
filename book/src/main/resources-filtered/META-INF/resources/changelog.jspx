@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss - Aggregator POM for all New Media Works open-source software projects.
-Copyright (C) 2019, 2020, 2021, 2022  New Media Works
+Copyright (C) 2019, 2020, 2021, 2022, 2023  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -39,7 +39,12 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
     datePublished="2019-05-24T19:34:42-05:00"
     dateModified="2022-05-15T22:59:49-05:00"
   >
-    <c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
+    <c:set var="latestRelease" value="1.9.0" />
+    <c:if test="${
+      fn:endsWith('@{project.version}', '-SNAPSHOT')
+      and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
+      and '@{project.version}' != (latestRelease.concat('-SNAPSHOT'))
+    }">
       <changelog:release
         projectName="@{documented.name}"
         version="@{project.version}"
