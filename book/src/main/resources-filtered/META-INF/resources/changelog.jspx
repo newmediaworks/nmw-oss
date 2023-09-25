@@ -37,9 +37,9 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-05-24T19:34:42-05:00"
-    dateModified="2023-09-20T16:47:30Z"
+    dateModified="2023-09-25T03:45:54Z"
   >
-    <c:set var="latestRelease" value="1.9.0" />
+    <c:set var="latestRelease" value="1.10.0" />
     <c:if test="${
       fn:endsWith('@{project.version}', '-SNAPSHOT')
       and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
@@ -52,12 +52,21 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      >
-        <ul>
-          <li>Updated version of <core:link book="/parent" page="/index.jspx" />.</li>
-        </ul>
-      </changelog:release>
+      />
     </c:if>
+
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.10.0"
+      datePublished="2023-09-25T03:45:54Z"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/parent" page="/index.jspx" />.</li>
+      </ul>
+    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
