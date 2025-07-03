@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 nmw-oss - Aggregator POM for all New Media Works open-source software projects.
-Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024  New Media Works
+Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024, 2025  New Media Works
     info@newmediaworks.com
     703 2nd Street #465
     Santa Rosa, CA 95404
@@ -91,9 +91,9 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
   <repositories>
     <!-- Repository required here, too, so can find parent -->
     <repository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>central-snapshots</id>
+      <name>Central Snapshot Repository</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
       <releases>
         <enabled>false</enabled>
       </releases>
