@@ -9,12 +9,12 @@
 [submodule "email-taglib"]
   path = email-taglib
   url = git@github.com:newmediaworks/nmw-email-taglib.git
-  branch = master
+  branch = javaee
 [submodule "website"]
   path = website
   url = git@github.com:newmediaworks/nmw-oss-website.git
-  branch = master
+  branch = javaee
 [submodule "payment-taglib"]
   path = payment-taglib
   url = git@github.com:newmediaworks/nmw-payment-taglib.git
-  branch = master
+  branch = javaee
