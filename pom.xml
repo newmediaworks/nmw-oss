@@ -112,8 +112,14 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>email-taglib</module>
     <module>email-taglib/book</module>
     <module>email-taglib/devel</module>
+    <module>email-taglib-javaee</module>
+    <module>email-taglib-javaee/book</module>
+    <module>email-taglib-javaee/devel</module>
     <module>payment-taglib</module>
     <module>payment-taglib/book</module>
+    <module>payment-taglib-javaee</module>
+    <module>payment-taglib-javaee/book</module>
     <module>website</module>
+    <module>website-javaee</module>
   </modules>
 </project>

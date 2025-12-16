@@ -1,20 +1,32 @@
-[submodule "parent"]
-  path = parent
-  url = git@github.com:newmediaworks/nmw-oss-parent.git
-  branch = master
+[submodule "email-taglib"]
+  path = email-taglib
+  url = git@github.com:newmediaworks/nmw-email-taglib.git
+  branch = jakartaee
+[submodule "email-taglib-javaee"]
+  path = email-taglib-javaee
+  url = git@github.com:newmediaworks/nmw-email-taglib.git
+  branch = javaee
 [submodule "javadoc-resources"]
   path = javadoc-resources
   url = git@github.com:newmediaworks/nmw-javadoc-resources.git
   branch = master
-[submodule "email-taglib"]
-  path = email-taglib
-  url = git@github.com:newmediaworks/nmw-email-taglib.git
+[submodule "parent"]
+  path = parent
+  url = git@github.com:newmediaworks/nmw-oss-parent.git
+  branch = master
+[submodule "payment-taglib"]
+  path = payment-taglib
+  url = git@github.com:newmediaworks/nmw-payment-taglib.git
+  branch = jakartaee
+[submodule "payment-taglib-javaee"]
+  path = payment-taglib-javaee
+  url = git@github.com:newmediaworks/nmw-payment-taglib.git
   branch = javaee
 [submodule "website"]
   path = website
   url = git@github.com:newmediaworks/nmw-oss-website.git
-  branch = javaee
-[submodule "payment-taglib"]
-  path = payment-taglib
-  url = git@github.com:newmediaworks/nmw-payment-taglib.git
+  branch = jakartaee
+[submodule "website-javaee"]
+  path = website-javaee
+  url = git@github.com:newmediaworks/nmw-oss-website.git
   branch = javaee
