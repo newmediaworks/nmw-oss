@@ -113,6 +113,9 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
+        <module>book</module>
+        <module>parent/book</module>
+        <module>javadoc-resources/book</module>
         <module>email-taglib</module>
         <module>email-taglib/book</module>
         <module>payment-taglib</module>
@@ -129,9 +132,9 @@ along with nmw-oss.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
-        <module>book</module>
-        <module>parent/book</module>
-        <module>javadoc-resources/book</module>
+        <module>book-javaee</module>
+        <module>parent/book-javaee</module>
+        <module>javadoc-resources/book-javaee</module>
         <module>email-taglib-javaee</module>
         <module>email-taglib-javaee/book</module>
         <module>payment-taglib-javaee</module>
