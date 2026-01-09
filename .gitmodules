@@ -26,7 +26,3 @@
   path = website
   url = git@github.com:newmediaworks/nmw-oss-website.git
   branch = jakartaee
-[submodule "website-javaee"]
-  path = website-javaee
-  url = git@github.com:newmediaworks/nmw-oss-website.git
-  branch = javaee
