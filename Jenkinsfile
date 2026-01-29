@@ -127,6 +127,18 @@ pipeline {
         }
       }
     }
+    stage('Code Policy Checks') {
+      when {
+        expression {
+          ao.continueCurrentBuild()
+        }
+      }
+      steps {
+        script {
+          ao.codePolicyCheckSteps(niceCmd)
+        }
+      }
+    }
     stage('Builds') {
       matrix {
         when {
