@@ -30,6 +30,9 @@ binding.setVariable('upstreamProjects', [
   'javadoc-resources', // <groupId>com.newmediaworks</groupId><artifactId>nmw-javadoc-resources</artifactId>
 ])
 
+// This is an Aggregator POM project used at build-time only, audits are skipped with "Skipping; POM module".
+binding.setVariable('scmAdditionalAuditBranches', [])
+
 /******************************************************************************************
  *                                                                                        *
  * Everything below this line is identical for all projects, except the copied matrix     *
